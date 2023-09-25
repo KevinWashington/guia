@@ -1,0 +1,99 @@
+<html>
+
+    <head>
+
+        <title>Estrutura</title>
+        <script src="../js/w3.js"></script>
+        <link rel="shortcut icon" href="../logo.ico"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/menu.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/href.js"></script>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+            @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+        </style>
+        <!--Menu-->
+        <div w3-include-html="../menu.html"></div>
+
+    </head>
+    <body>
+        <!--Header-->
+        <div w3-include-html="header.html"></div>
+
+        <!--Começo do Main-->
+        <div class="main-inner">
+
+            <!--BreadCrumb-->
+            <div class="post-header">
+                <!-- Início Breadcrumb -->
+                <div class="breadcrumb"><a href="../index.html"> Inicial </a></div>
+                <!-- Sempre inseris esta div após o breadcrumb, pois ela é a "seta" dele -->
+                <div class="breadcrumb-after"></div>
+            </div>
+
+            <h2>Parte Externa</h2>
+                <ul>
+
+                    <li>Capa(Obrigatório)</li>
+                    <li>Lombada (opcional)</li>
+                        <div onselectstart='return false' ondragstart='return false' oncontextmenu='return false'>
+                            <center><img src="images/1.png" width="600" class="img-guia"/></center>
+                        </div>
+
+                </ul>
+
+            <h2>Elementos Pré-textuais</h2>
+                <ul>
+
+                    <li>Folha de rosto (obrigatório)</li>
+                    <li>Errata (opcional)</li>
+                    <li>Folha de aprovação (obrigatório)</li>
+                    <li>Dedicatória (opcional)</li>
+                    <li>Agradecimentos (opcional)</li>
+                    <li>Epígrafe (opcional)</li>
+                    <li>Resumo em lingua vernácula (obrigatório)</li>
+                    <li>Resumo em lingua estrangeira (obrigatório)</li>
+                    <li>Lista de ilustrações (opcional)</li>
+                    <li>Lista de tabelas (opcional)</li>
+                    <li>Lista de abreviaturas e siglas (opcional)</li>
+                    <li>Lista de símbolos (opcional)</li>
+                    <li>Sumário (obrigatório)</li>
+
+                </ul>
+
+            <h2>Elementos textuais</h2>
+                <ul>
+
+                    <li>Introdução</li>
+                    <li>Desenvolvimento (seções e subseções)</li>
+                    <li>Conclusão</li>
+
+
+                </ul>
+
+            <h2>Elementos Pós-textuais</h2>
+                <ul>
+
+                    <li>Referências (obrigatório)</li>
+                    <li>Glossário (opcional)</li>
+                    <li>Apêndice (opcional)</li>
+                    <li>Anexo (opcional)</li>
+                    <li>Índice (opcional)</li>
+
+
+                </ul>
+            <!-- CONTINUAR-->
+            <div class="navegacao">
+                <div id = "continuar" class="btn-txt"><a onclick="vaiPara('AO','p')">Continuar</a></div>
+            </div>
+        </div>
+
+    </body>
+    <!--Footer-->
+    <div w3-include-html="../footer.html"></div>
+    <script>
+        w3.includeHTML();
+    </script>
+</html>

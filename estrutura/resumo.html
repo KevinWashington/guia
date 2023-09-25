@@ -1,0 +1,78 @@
+<html>
+
+<head>
+
+    <title>Resumo</title>
+        <script src="../js/w3.js"></script>
+        <link rel="shortcut icon" href="../logo.ico"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/menu.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/href.js"></script>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+            @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+        </style>
+        <!--Menu-->
+        <div w3-include-html="../menu.html"></div>
+
+    </head>
+    <body>
+
+        <!--Header-->
+        <div w3-include-html="header.html"></div>
+
+        <!--Começo do Main-->
+        <div class="main-inner">
+
+            <!--BreadCrumb-->
+            <div w3-include-html="breadCrumb.html"></div>
+
+           <h2>Resumo</h2>
+                <ul>
+
+                    <li>Deve ressaltar sucintamente o conteúdo de um texto. A ordem e a extensão dos elementos dependem do tipo de resumo (informativo ou indicativo) e do tratamento que cada item recebe no documento original;</li>
+
+                    <li>Deve ser composto por uma sequência de frases concisas em parágrafo único, sem enumeração de tópicos;</li>
+
+                    <li>Em documento técnico ou científico, recomenda-se o resumo informativo;</li>
+
+                    <li>Convém usar o verbo na terceira pessoa;</li>
+
+                    <li>Quando não estiver contido no documento, deve ser precedido pela referência;</li>
+
+                    <li>A referência é opcional quando o resumo estiver contido no próprio documento e deve ficar logo após o título da seção (Resumo);</li>
+
+                    <li>As palavras-chave devem figurar logo abaixo do resumo, antecedidas da expressão Palavras-chave, seguida de dois-pontos, separadas entre si por ponto e vírgula e finalizadas por ponto. Devem ser grafadas com as iniciais em letra minúscula, com exceção dos substantivos próprios e nomes científicos.</li>
+
+                    <p class="corpo"><span class="tabulacao"></span>Quanto a sua extensão os resumos devem ter: de 150 a 500 palavras os de trabalhos acadêmicos (teses, dissertações e outros) e relatórios técnico-científicos;</p>
+
+                </ul>
+
+                <h3 id="VER">Resumo na língua vernácula</h3>
+                    <p><strong>Exemplo:</strong></p>
+                        <div onselectstart='return false' ondragstart='return false' oncontextmenu='return false' style="margin-left:80px;">
+                            <center><img src="images/18.png" width="700" class="img-guia" /></center>
+                        </div>
+                <h3 id="EST">Resumo na língua estrangeira</h3>
+                    <p><strong>Exemplo:</strong></p>
+                        <div onselectstart='return false' ondragstart='return false' oncontextmenu='return false'>
+                            <center><img src="images/19.png" width="600" class="img-guia"/></center>
+                        </div>
+
+
+            <div class="navegacao">
+                <div id= "voltar" class="btn-txt"><a onclick="vaiPara('NAW','a')">Voltar</a></div>
+                <div id = "continuar" class="btn-txt"><a onclick="vaiPara('NAW','p')">Continuar</a></div>
+            </div>
+
+        </div>
+
+    </body>
+    <!--Footer-->
+    <div w3-include-html="../footer.html"></div>
+    <script>
+        w3.includeHTML();
+    </script>
+</html>

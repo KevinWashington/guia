@@ -1,0 +1,61 @@
+<html>
+
+    <head>
+
+        <title>Ficha Catalográfica</title>
+        <script src="../js/w3.js"></script>
+        <link rel="shortcut icon" href="../logo.ico"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/menu.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/href.js"></script>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+            @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+        </style>
+        <!--Menu-->
+        <div w3-include-html="../menu.html"></div>
+
+    </head>
+    <body>
+
+        <!--Header-->
+        <div w3-include-html="header.html"></div>
+
+        <!--Começo do Main-->
+        <div class="main-inner">
+
+            <!--BreadCrumb-->
+            <div w3-include-html="breadCrumb.html"></div>
+
+        <h2>Ficha Catalográfica</h2>
+            <p class="corpo"><span class="tabulacao"></span>Contém os dados da publicação e deve ser impressa no verso da folha de rosto.</p>
+
+
+            <div class="box-atencao-title">Atenção</div>
+            <div class="box-atencao">
+
+            <ol>
+                <li>Conforme NBR 14724/2011 o verso da folha de rosto contém um elemento obrigatório, a ficha catalográfica do trabalho segundo o Código de Catalogação Anglo-Americano vigente;</li><p></p>
+      			<li>Solicitada através do “Ficat” disponível no site <a href="http://bcficat.ufpa.br" target="_blank">bcficat.ufpa.br</a>.</li>
+            </ol>
+
+        </div>
+
+
+
+          <div class="navegacao">
+                <div id= "voltar" class="btn-txt"><a onclick="vaiPara('AR','a')">Voltar</a></div>
+                <div id = "continuar" class="btn-txt"><a onclick="vaiPara('AR','p')">Continuar</a></div>
+            </div>
+
+        </div>
+
+    </body>
+    <!--Footer-->
+    <div w3-include-html="../footer.html"></div>
+    <script>
+        w3.includeHTML();
+    </script>
+</html>

@@ -1,0 +1,56 @@
+<html>
+
+    <head>
+
+        <title>Sumário</title>
+        <script src="../js/w3.js"></script>
+        <link rel="shortcut icon" href="../logo.ico"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/menu.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/href.js"></script>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+            @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+        </style>
+        <!--Menu-->
+        <div w3-include-html="../menu.html"></div>
+
+    </head>
+    <body>
+
+        <!--Header-->
+        <div w3-include-html="header.html"></div>
+
+        <!--Começo do Main-->
+        <div class="main-inner">
+
+            <!--BreadCrumb-->
+            <div w3-include-html="breadCrumb.html"></div>
+
+           <h2>Sumário</h2>
+            <p class="corpo"><span class="tabulacao"></span>A palavra sumário deve ser centralizada e com o mesmo tipo de fonte utilizada para as seções primárias.</p>
+            <p class="corpo"><span class="tabulacao"></span>A subordinação dos itens do sumário seja destacada com a mesma apresentação tipográfica (fonte, negrito, caixa alta, caixa baixa, etc.) utilizada nas seções do documento. Em seguida linha pontilhada e paginação inicial de cada seção e subseção.</p>
+            <p class="corpo"><span class="tabulacao"></span>Alinhar a margem do título a partir do indicativo mais extenso, inclusive os elementos pós-textuais. </p>
+            <p class="corpo"><span class="tabulacao"></span><strong>Obs:</strong> Os elementos pré-textuais não podem constar no sumário. As seções dos elementos pós-textuais não são enumeradas.</p>
+
+            <p><strong>Exemplo:</strong></p>
+                <div onselectstart='return false' ondragstart='return false' oncontextmenu='return false'>
+                    <center><img src="images/25.PNG" width="600" class="img-guia" /></center>
+                </div>
+
+            <div class="navegacao">
+                <div id = "voltar" class="btn-txt"><a onclick="vaiPara('BB','a')">Voltar</a></div>
+                <div id = "continuar" class="btn-txt"><a onclick="vaiPara('BB','p')">Continuar</a></div>
+            </div>
+
+        </div>
+
+    </body>
+    <!--Footer-->
+    <div w3-include-html="../footer.html"></div>
+    <script>
+        w3.includeHTML();
+    </script>
+</html>

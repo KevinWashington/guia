@@ -1,0 +1,52 @@
+<html>
+
+    <head>
+
+        <title>Agradecimentos</title>
+        <script src="../js/w3.js"></script>
+        <link rel="shortcut icon" href="../logo.ico"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/menu.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/href.js"></script>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+            @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+        </style>
+        <!--Menu-->
+        <div w3-include-html="../menu.html"></div>
+
+    </head>
+    <body>
+
+        <!--Header-->
+        <div w3-include-html="header.html"></div>
+
+        <!--Começo do Main-->
+        <div class="main-inner">
+
+            <!--BreadCrumb-->
+            <div w3-include-html="breadCrumb.html"></div>
+            
+           <h2>Agradecimentos</h2>
+                <p class="corpo"><span class="tabulacao"></span>Texto em que o autor faz agradecimentos dirigidos àqueles que contribuíram de maneira relevante à elaboração do trabalho.</p>
+            <p><strong>Exemplo:</strong></p>
+                <div onselectstart='return false' ondragstart='return false' oncontextmenu='return false'>
+                    <center><img src="images/16.png" width="600" class="img-guia" /></center>
+                </div>
+
+            <div class="navegacao">    
+                <div id= "voltar" class="btn-txt"><a onclick="vaiPara('AV','a')">Voltar</a></div>
+                <div id = "continuar" class="btn-txt"><a onclick="vaiPara('AV','p')">Continuar</a></div> 
+            </div>
+
+        </div>
+
+    </body>
+    <!--Footer-->
+    <div w3-include-html="../footer.html"></div>
+    <script>
+        w3.includeHTML();
+    </script>
+</html>

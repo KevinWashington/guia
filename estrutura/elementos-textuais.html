@@ -1,0 +1,67 @@
+<html>
+
+    <head>
+
+        <title>Elementos Textuais</title>
+        <script src="../js/w3.js"></script>
+        <link rel="shortcut icon" href="../logo.ico"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/menu.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/href.js"></script>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+            @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+        </style>
+        <!--Menu-->
+        <div w3-include-html="../menu.html"></div>
+
+    </head>
+    <body>
+
+        <!--Header-->
+        <div w3-include-html="header.html"></div>
+
+        <!--Começo do Main-->
+        <div class="main-inner">
+
+            <!--BreadCrumb-->
+            <div w3-include-html="breadCrumb.html"></div>
+
+           <h2>Elementos textuais</h2>
+            <h3>O texto é composto de:</h3>
+                <ul>
+
+                    <li>Uma parte introdutória, que apresenta os objetivos do trabalho e as razões de sua elaboração; </li>
+                    <li>O desenvolvimento, que detalha a pesquisa ou estudo realizado;</li>
+                    <li>E uma parte conclusiva.</li>
+
+                </ul>
+
+            <p class="corpo"><span class="tabulacao">Com as seguintes configurações:<p>
+                <ul>
+
+                    <li>Fonte: Arial ou Times New Roman;</li>
+                    <li>Tamanho: 12;</li>
+                    <li>Entre linhas: 1,5;</li>
+                    <li>Alinhamento: justificado;</li>
+                    <li>Espaçamento entre seções: uma linha em branco (entre linhas 1,5) antes e depois do título da seção.</li>
+
+                </ul>
+
+            <p class="corpo"><span class="tabulacao"></span><strong>OBS: </strong>Seções primárias sempre iniciar em página ímpar (anverso), na parte superior da mancha gráfica, e ser separados do texto que os sucede por um espaço entre linhas de 1,5. </p>
+
+            <div class="navegacao">
+                <div id = "voltar" class="btn-txt"><a onclick="vaiPara('BC','a')">Voltar</a></div>
+                <div id = "continuar" class="btn-txt"><a onclick="vaiPara('BC','p')">Continuar</a></div>
+            </div>
+        </div>
+
+    </body>
+    <!--Footer-->
+    <div w3-include-html="../footer.html"></div>
+    <script>
+        w3.includeHTML();
+    </script>
+</html>

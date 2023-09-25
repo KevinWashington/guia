@@ -1,0 +1,89 @@
+<html>
+
+    <head>
+
+        <title>Folha de Aprovação</title>
+        <script src="../js/w3.js"></script>
+        <link rel="shortcut icon" href="../logo.ico"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/menu.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/href.js"></script>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+            @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+        </style>
+        <!--Menu-->
+        <div w3-include-html="../menu.html"></div>
+
+    </head>
+    <body>
+
+        <!--Header-->
+        <div w3-include-html="header.html"></div>
+
+        <!--Começo do Main-->
+        <div class="main-inner">
+
+            <!--BreadCrumb-->
+            <div w3-include-html="breadCrumb.html"></div>
+
+        <h2>Folha de Aprovação</h2>
+            <ul>
+
+                <li>Nome do autor;</li>
+                <li>Título;</li>
+                <li>Subtítulo (se houver);</li>
+                <li>Natureza (tipo do trabalho, objetivo, nome da instituição a que é submetido, área de concentração);</li>
+                <li>Data de aprovação;</li>
+                <li>Conceito;</li>
+                <li>Nome, titulação e assinaturados componentes da banca examinadora e instituições a que pertencem.</li>
+
+            </ul>
+        <p><strong>Modelo de folha de aprovação</strong></p>
+            <div onselectstart='return false' ondragstart='return false' oncontextmenu='return false'>
+                <center><img src="images/11.png" width="600" class="img-guia" /></center>
+            </div>
+
+            <p><strong>Exemplo de folha de aprovação de trabalho de conclusão de curso (TCC)</strong></p>
+            <div onselectstart='return false' ondragstart='return false' oncontextmenu='return false'>
+                <center><img src="images/12.png" width="600" class="img-guia" /></center>
+                <p class="fonteImg"><strong>Disponível em:</strong>
+                    <a href="http://bdm.ufpa.br/jspui/bitstream/prefix/128/5/TCC_DiagnosticoSecretariaEstadual.pdf" target="_blank">
+                    http://bdm.ufpa.br/jspui/bitstream/prefix/128/5/TCC_DiagnosticoSecretariaEstadual.pdf</a>
+                </p>
+            </div>
+
+            <p><strong>Exemplo de folha de aprovação de dissertação (mestrado)</strong></p>
+            <div onselectstart='return false' ondragstart='return false' oncontextmenu='return false'>
+                <center><img src="images/13.png" width="600" class="img-guia" /></center>
+                <p class="fonteImg"><strong>Disponível em:</strong>
+                    <a href="http://repositorio.ufpa.br/jspui/bitstream/2011/7699/1/Dissertacao_EstudoCineticoIsotermas.pdf" target="_blank">
+                    http://repositorio.ufpa.br/jspui/bitstream/2011/7699/1/Dissertacao_EstudoCineticoIsotermas.pdf</a>
+                </p>
+            </div>
+
+            <p><strong>Exemplo de folha de aprovação de tese (doutorado)</strong></p>
+            <div onselectstart='return false' ondragstart='return false' oncontextmenu='return false'>
+                <center><img src="images/14.png" width="600" class="img-guia" /></center>
+                <p class="fonteImg"><strong>Disponível em:</strong>
+                    <a href="http://repositorio.ufpa.br/jspui/bitstream/2011/8910/1/Tese_OtimizacaoCondicoesExtracao.pdf" target="_blank">
+                    http://repositorio.ufpa.br/jspui/bitstream/2011/8910/1/Tese_OtimizacaoCondicoesExtracao.pdf</a>
+                </p>
+            </div>
+
+            <div class="navegacao">
+                <div id= "voltar" class="btn-txt"><a onclick="vaiPara('AT','a')">Voltar</a></div>
+                <div id = "continuar" class="btn-txt"><a onclick="vaiPara('AT','p')">Continuar</a></div>
+            </div>
+
+        </div>
+
+    </body>
+    <!--Footer-->
+    <div w3-include-html="../footer.html"></div>
+    <script>
+        w3.includeHTML();
+    </script>
+</html>

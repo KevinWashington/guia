@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Formatação Gráfica</title>
+        <script src="../js/w3.js"></script>
+        <link rel="shortcut icon" href="../logo.ico"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/menu.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/href.js"></script>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+            @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+        </style>
+        <!--Menu-->
+        <div w3-include-html="../menu.html"></div>
+    </head>
+    <body>
+        <!--Header-->
+        <div w3-include-html="header.html"></div>
+
+        <!--Começo do Main-->
+        <div class="main-inner">
+
+            <!--BreadCrumb-->
+            <div class="post-header">
+                <!-- Início Breadcrumb -->
+                <div class="breadcrumb"><a href="../index.html"> Inicial </a></div>
+                <!-- Sempre inseris esta div após o breadcrumb, pois ela é a "seta" dele -->
+                <div class="breadcrumb-after"></div>
+            </div>
+
+            <p class="corpo"><span class="tabulacao"></span>Os textos devem ser digitados em cor preta, podendo utilizar outras cores somente para as ilustrações.<br/><br/>
+                <span class="tabulacao"></span>Impresso em papel branco, no formato A4 (21cm×29,7cm).
+                <br/><br/>
+                <span class="tabulacao"></span>Os <span class="alerta">elementos pré-textuais</span> devem iniciar no <span class="alerta">anverso</span> (parte da frente) da
+                folha, com exceção dos dados internacionais de <span class="alerta">catalogação-na-publicação</span> (ficha catalográfica) que devem vir no <span class="alerta">verso</span> (parte de trás) da <span class="alerta">folha de rosto</span>.
+                <br/><br/>
+                <span class="tabulacao"></span>Recomenda-se que os <span class="alerta">elementos textuais</span> e <span class="alerta">elementos pós-textuais</span> sejam digitados no anverso das folhas.
+                <br/>
+        <br/><br/>
+
+        <!-- CONTINUAR-->
+        <div class="navegacao">
+            <div id = "continuar" class="btn-txt"><a onclick="vaiPara('AC','p')">Continuar</a></div>
+        </div>
+
+        </div>
+        <!--Fim do Main -->
+
+    </body>
+    <!--Footer-->
+    <div w3-include-html="../footer.html"></div>
+    <script>
+        w3.includeHTML();
+    </script>
+</html>
