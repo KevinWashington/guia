@@ -1,0 +1,128 @@
+<html>
+
+<head>
+    
+    <title>Introdução</title>
+    <script src="js/w3.js"></script>
+    <link rel="shortcut icon" href="../logo.ico"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="collapzion.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/href.js"></script>
+    <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+    </style>
+    <div w3-include-html="menu.html"></div>
+</head>
+<body>  
+
+    <header>
+
+        <div style="float: left; width: 3%">
+
+            <!-- Manter este tipo de div para imagens -->
+            <div onselectstart='return false' ondragstart='return false' oncontextmenu='return false'>
+                <img src="images/det-1.png" width="50"/></div> 
+            </div>
+
+        <div style="float: right; width: 95%">
+
+            <!-- Manter este tipo de div para imagens que antecedem legendas -->
+            <div onselectstart='return false' ondragstart='return false' oncontextmenu='return false' style="margin-bottom: -10px">
+                <img src="images/introducao.png" width="400" style="margin-top: 1%;" />
+            </div> 
+        </div> 
+        <div style="clear: both"></div>
+
+     </header>
+
+        <!-- Início do main-inner -->
+        <div class = "main-inner">
+
+            <div class="post-header">
+                <!-- Início Breadcrumb -->
+                <div class="breadcrumb"><a href="index.html"> Inicial </a></div>                 
+                <!-- Sempre inseris esta div após o breadcrumb, pois ela é a "seta" dele -->
+                <div class="breadcrumb-after"></div>
+                <div class="breadcrumb"><a href="introducao.html"> Introdução </a></div>
+                <div class="breadcrumb-after"></div>
+            </div>
+
+            <!-- Início do post-inner -->
+            <div class="post-inner">
+
+                <h2>A ABNT</h2>
+
+                <p class="corpo"><span class="tabulacao"></span>A  Associação  Brasileira  de  Normas  Técnicas  (ABNT)  é  a  agência reguladora e normalizadora de publicações técnicas no Brasil. No que diz respeito  a  documentação,  ela  estabelece  as  normas  do  CB-14  (Comitê Brasileiro de Informação e Documentação).</p>    
+                
+                <br/>
+
+                <h2>As Normas</h2>
+
+                <p class="corpo"><span class="tabulacao"></span>Para a elaboração desse guia, foram usadas as seguintes normas:</p>
+
+                    <ul>    
+                        <li>ABNT NBR 6023:2018 – Referências;</li>
+                        <li>ABNT NBR 6024:2012 – Numeração progressiva das seções de um documento;</li>
+                        <li>ABNT NBR 6027:2012 – Sumário;</li>
+                        <li>ABNT NBR 6028:2021 – Resumo, resenha e recensão;</li>
+                        <li>ABNT NBR 10520:2023 – Citações em documentos;</li>
+                        <li>ABNT NBR 14724:2011 – Trabalhos acadêmicos;</li>
+                        <li>IBGE. Normas de apresentação tabular. 3 ed. Rio de janeiro, 1993.</li>        
+                    </ul>
+
+                <!-- Botão para continuar -->
+                <div id = "continuar" class="btn-txt" style="float: right"><a onclick="vaiPara('AB','p')">Continuar</a></div>
+
+            </div> 
+            <!-- Fim do post-inner -->
+        </div>
+        <!-- Fim do main-inner -->
+
+        
+        <!-- Menu flutuante -->
+        <!--
+        <div id="container-floating">-->
+
+            <!-- Elemento 1 
+                <div class="nd5 nds" data-toggle="tooltip" data-placement="left"><img class="reminder">
+                    <a href="#" target="_blank"><p class="letter" title="Duvidas?">❓</p></a>
+                </div>
+            -->
+            <!-- Elemento 2 
+                <div class="nd4 nds" data-toggle="tooltip" data-placement="left"><img class="reminder">
+                    <a href="http://bc.ufpa.br/wp-content/uploads/2018/01/Guia_de_Elaboracao_de_Trabalhos_Academicos.pdf" target="_blank"><p class="letter" title="Baixar este manual em PDF">📥</p></a>
+                </div>
+            -->
+            <!-- Elemento 3 
+            <div class="nd3 nds" data-toggle="tooltip" data-placement="left"><img class="reminder">
+                <a href="#"><p class="letter" title="Marcar como visto">✔</p></a>
+            </div>
+            -->
+            <!-- Elemento 4 
+            <div class="nd1 nds" data-toggle="tooltip" data-placement="left" data-original-title="Edoardo@live.it"><img class="reminder">
+                <a href=""><p class="letter" title="Verificar meu progresso">🏆</p></a>
+            </div>
+            -->
+            <!-- Elemento "Plus" 
+            <div id="floating-button" data-toggle="tooltip" data-placement="left" data-original-title="Create" onclick="newmail()">
+                <p class="plus">+</p><img class="edit" src="https://ssl.gstatic.com/bt/C3341AA7A1A076756462EE2E5CD71C11/1x/bt_compose2_1x.png">
+            </div>
+            -->
+
+        <!--</div>-->
+        
+        <!-- Fim do menu flutuante -->
+       
+
+</body>
+<div w3-include-html="footer.html"></div>
+    
+<script>
+    w3.includeHTML();
+</script>
+</html>    

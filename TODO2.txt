@@ -1,0 +1,11 @@
+﻿1. Transformar para Mobile (PWa);                                         (Jairo)
+
+2. Transformar em Curso;                                                  (Jairo)
+
+3. Criar Banco de Dados de links;                                         (Jairo)
+
+4. Criar modo de pesquisa de conteúdo                                     (Jairo)
+
+5. Criar tooltip (wikipedia)						                      (Jairo)
+
+6. Adicionar 1 na Paginação com tooltip                                   (Jairo)

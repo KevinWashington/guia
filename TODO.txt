@@ -1,0 +1,119 @@
+﻿1. Colocar o Footer em todos os arquivos;                                               (Jairo) [CONCLUÍDO]
+
+1,5. Perguntar a Kelly o que deve ter no Footer;                                        (Jairo) [CONCLUÍDO]
+
+2. Tirar o <script> dos html que não tem js;                                            (Jairo) [CONCLUÍDO]
+
+2,5. Trocar o nome de teste.css para menu.css;                                          (Jairo) [CONCLUÍDO]
+
+3. Terminar de Organizar css de cada arquivo (todos estão com o da font.css);           (Jairo) [CONCLUÍDO]
+
+4. Melhorar o CSS (layout);                                                             (Kelly) [CONCLUÍDO]
+
+5. Colocar Divs especiais (main,sidebar,fotter,post img);                               (Jairo) [CONCLUÍDO]
+
+6. Fazer alinhamentos padronizados;                                                     (Kelly) [CONCLUÍDO]
+
+7. Acrescentar o breadCrumb;                                                            (Kelly) [CONCLUÍDO]
+
+8. Estilizar o H3;                                                                      (Kelly) [CONCLUÍDO]
+
+9. Trocar o título (introdução, formatação gráfica e Estrutura) para imagens bonitonas; (Kelly) [CONCLUÍDO]
+
+10. Converter imagens para texto;                                                       (Kelly) [CONCLUÍDO]
+
+11. Ajeitar o Menu (tirar JavaScript);                                                  (Jairo) [CONCLUÍDO] [NOVO] [CONCLUÍDO]
+
+12. Fazer novo Menu (Mega menu DropDown);                                               (Jairo) [CONCLUÍDO]
+
+12,5. Melhorar o estilo do menu(?);                                                     (Kelly) [CONCLUÍDO]
+
+13. Fazer JavaScript do Inicial;                                                        (Jairo) [CONCLUÍDO]
+
+14. Fazer a Referência;                                                                 (Jairo) [CONCLUÍDO]
+
+15. Substituir os <b> por <strong>;                                                 	(Jairo) [CONCLUÍDO]
+
+16. Não separar por pastas as seções e renomear o nome dos arquivos delas;	            (Kelly) [CONCLUÍDO]
+
+17. Alterar o link dos botões;                                                          (Jairo) [CONCLUÍDO]
+   
+18. Alterar a folha de estilo de cada página (chamar a folha style.css);                (Jairo) [CONCLUÍDO]
+
+19. colocar link nas div do Inicial;						                            (Jairo) [CONCLUÍDO]
+
+20. Comentar o menu flutuante;  							                            (Jairo) [CONCLUÍDO]
+
+21. Consertar Menu (problema com a pasta das listas);                                   (Jairo) [CONCLUÍDO]
+
+22. Adicionar as fotos nos arquivos;                                                    (Jairo) [CONCLUÍDO]
+
+23. Fazer o Menu Sanfona em Citações;                                                   (Jairo) [CONCLUÍDO]
+  
+24. Fazer JavaScript de Citações;                                                       (Jairo) [CONCLUÍDO]
+
+25. Fazer JavaScript de Notas de Rodapé;                                                (Jairo) [CONCLUÍDO]
+
+26. Fazer JavaScript de Referências;                                                    (Jairo) [CONCLUÍDO]
+
+27. Ajeitar o "Disponível em" na página Referências;							        (Kelly) [CONCLUÍDO]
+
+28. Fazer o Menu Sanfona em Referências;                                                (Jairo) [CONCLUÍDO]
+  
+29. Fazer método que abra direto o Citações através do Índice;                          (Jairo) [CONCLUÍDO]
+
+30. Fazer método que abra direto o Referências através do Índice;                       (Jairo) [CONCLUÍDO]
+
+31. Fazer método que abra direto o Nota de Rodapé através do Índice;                    (Jairo) [CONCLUÍDO]
+
+31. Fazer método que abra direto o Numeração Progressiva através do Índice;             (Jairo) [CONCLUÍDO]
+
+31. Fazer método que abra direto o Resumo através do Índice;                            (Jairo) [CONCLUÍDO]
+
+30. Fazer o Menu Sanfona em Notas de Rodapé;                                            (Jairo) [CONCLUÍDO]
+
+31. Negritar algumas coisas em "Referências";		     								(Kelly) [CONCLUÍDO]
+
+32. Falar com o Jairo sobre coisas que faltam em Referências;							(Kelly) [CONCLUÍDO]
+
+33. Configurar adequadamente o "Notas de Rodapé";										(Kelly)
+
+34. Resolver um padrão para as imagens de exemplo (corpo do site);						(Jairo) [CONCLUÍDO]
+
+35. Criar submenus no Index de Referências;                                             (Jairo) [CONCLUÍDO]
+
+36. Linkar a última página do guia com a página "conclusao.html";            			(Jairo) [CONCLUÍDO]
+
+37. Tabular e justificar os textos;                                                     (Jairo) [CONCLUÍDO]
+
+38. Tirar "Padrões que seu trabalho deve seguir" do inicio das seções;                  (Jairo) [CONCLUÍDO]
+
+39. "Espaço entre linhas" alterar "Resumo: espaço simples" para "Resumo: espaço 1,5";   (Jairo) [CONCLUÍDO]
+
+40. "Numeração progressiva" tirar negrito dos números das seções;                       (Jairo) [CONCLUÍDO]
+
+41. Tirar "Conceito", pois nem sempre as informações subsequentes são conceitos;        (Jairo) [CONCLUÍDO]
+
+42. "Numeração progressiva" o exemplo está estranho;                                    (Jairo) [CONCLUÍDO]
+
+43. Corrigir o exemplo de subalineas;                                                   (Kelly)
+
+44. "Paginação" Alterar "pequeno resumo" para "Estrutura";                              (Jairo) [CONCLUÍDO]
+
+45. "Paginação" -->> "(exceto a errata!)" tirar a "!";                                  (Jairo) [CONCLUÍDO]
+
+46. Nota de rodapé, ajustar o "Passim - aqui e ali-;                                    (Jairo) [CONCLUÍDO]
+
+47. Nos exemplos como: capa, folha de rosto e etc. colocar as fontes;                   (Jairo) [CONCLUÍDO]
+
+48. "Dedicatória" e "Epigrafe" tirar o "PS";                                            (Jairo) [CONCLUÍDO]
+
+49. Incluir "Fale conosco" (PhP);                                                       (Jairo) 
+
+50. Criar função para o Endereço Dinâmico;                                              (Jairo) [CONCLUÍDO]
+
+51. Adicionar Endereço Dinâmico em todas as Páginas;                                    (Jairo) [CONCLUÍDO]
+
+52. Tirar <strong> das "TIPS" (colocar no GTA2)                                         (Jairo) [CONCLUÍDO]
+
+53. Ajeitar Margem dos Headers                                                          (Jairo) 
